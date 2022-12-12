@@ -69,7 +69,7 @@ func main() {
 	go handleStoreProducts(taskCtx, wg)
 
 	<-parentCtx.Done()
-	wg.Done()
+	wg.Wait()
 	log.Println("END OF NIKO PWNAGE")
 }
 
