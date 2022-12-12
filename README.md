@@ -9,7 +9,8 @@ If you're on most modern Unix-like systems, this will work out of the box.
 ```bash
 $ go run .
 # ... or ...
-$ go run github.com/niko-dunixi/cookie-clicker-tasbot
+$ go install github.com/niko-dunixi/cookie-clicker-tasbot@latest
+$ cookie-clicker-tasbot
 ```
 
 Alternatively you should run with the utility script if:
